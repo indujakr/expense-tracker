@@ -1,0 +1,57 @@
+.container{
+    background-color: palevioletred;
+    border-radius: 25px;
+    margin: 1% 2%;
+    border:2px solid white;
+}
+
+.filter_div{
+    display: flex;
+    flex-direction: row;
+    margin: 1% 0%;
+}
+
+.header{
+    width:80%;
+    font-weight: bold;
+    margin-left: 12%;
+}
+
+.select{
+    width: 10%;
+    margin-right: 5%;
+}
+
+.chart{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.loadbar{
+    width: 15px;
+    height: 80px;
+    background-color: cornsilk;
+    border:1px solid black;
+    position: relative;
+    margin: 1% 2.5% 0% 2.5%;
+}
+
+.bar{
+    width: 100%;
+    display: block;
+    background-color: blueviolet;
+    position: absolute;
+    bottom: 0%;
+}
+
+.month_name_div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.month_name{
+    margin: 0% 3.2%;
+}
